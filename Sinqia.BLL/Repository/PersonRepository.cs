@@ -11,12 +11,13 @@ namespace Sinqia.BLL.Repository
 {
     public class PersonRepository : IPersonRepository
     {
-        public Person CreatePerson(string type)
+        public Person CreatePerson(string type)    
         {
-            if (type.ToUpper() == "PF") 
+            if (type.ToUpper() == "PF")  
                 return new NaturalPersonCreator().CreatePerson();
             else
                 return new LegalPersonCreator().CreatePerson();
         }
     }
 }
+ 

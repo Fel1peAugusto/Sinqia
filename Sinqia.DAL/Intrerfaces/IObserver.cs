@@ -11,3 +11,4 @@ namespace Sinqia.DAL.Interfaces
         string Update(string product);
     }
 }
+ 
