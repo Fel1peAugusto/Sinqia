@@ -21,8 +21,8 @@ namespace Sinqia.BLL.Repository
 
             Cart.GetInstance.RemovedProduct(product);
 
-        }
-
+        } 
+         
         public Cart GetShoppingCart()
         {
             return Cart.GetInstance;
