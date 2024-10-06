@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sinqia.API", "Sinqia.API.csproj", "{1CCD21AB-94E5-4E49-8CDB-FFCF7278776D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sinqia.DAL", "..\Sinqia.DAL\Sinqia.DAL.csproj", "{0D275B34-E7F2-4F83-A069-F9B7A537E092}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sinqia.BLL", "..\Sinqia.BLL\Sinqia.BLL.csproj", "{75A458B1-C10F-4785-9A38-A75011D9A119}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CCD21AB-94E5-4E49-8CDB-FFCF7278776D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CCD21AB-94E5-4E49-8CDB-FFCF7278776D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CCD21AB-94E5-4E49-8CDB-FFCF7278776D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CCD21AB-94E5-4E49-8CDB-FFCF7278776D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D275B34-E7F2-4F83-A069-F9B7A537E092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D275B34-E7F2-4F83-A069-F9B7A537E092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D275B34-E7F2-4F83-A069-F9B7A537E092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D275B34-E7F2-4F83-A069-F9B7A537E092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75A458B1-C10F-4785-9A38-A75011D9A119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A458B1-C10F-4785-9A38-A75011D9A119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75A458B1-C10F-4785-9A38-A75011D9A119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75A458B1-C10F-4785-9A38-A75011D9A119}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {005D50F0-6790-4835-A2EF-5E5104DD6C44}
+	EndGlobalSection
+EndGlobal
